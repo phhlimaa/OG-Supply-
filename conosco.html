@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - OG SUPPLY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=League+Gothic&family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo2.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="./img/phcoisa-removebg-preview.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="sobre.html" class="link">Sobre nós</a></li>
+                <li><a href="conosco.html" class="link">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1>Fale Conosco</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="reason">Motivo:</label>
+                <textarea id="reason" name="reason" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <main>
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <img src="./img/OG_SUPPLY_white_text-removebg-preview.png" class="imagem">
+                    <p>Its all about your dreams.</p>
+                    <div id="footer_socialmedia">
+                        <a href="https://www.instagram.com/" class="footer-link" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/home.php" class="footer-link" id="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li><h3>OG SUPPLY STUDIOS &#169 2025</h3></li>
+                    <li><p>CNPJ:12.345.678/0001-95</p></li>
+                    <li><p>Santo André-SP.</p></li>
+                    <li><p>Rua Padre Viêira, 588<br>Santo André - SP<br>09090-720</p></li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li><h3>Produtos</h3></li>
+                    <li><a href="#" class="footer-link">App</a></li>
+                    <li><a href="#" class="footer-link">Desktop</a></li>
+                    <li><a href="#" class="footer-link">Nuvem</a></li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Contate-nos:</h3>
+                    <p>Coloque seu email para receber as notificações!</p>
+                    <div id="input_group">
+                        <input type="email" id="subscribe-email">
+                        <button><i class="fa-solid fa-envelope"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169 Copyright Og Supply - 2025. Todos os direitos reservados.
+                (Feito por Henrique Slavov, Gustavo Gigante, João Victor, Pedro Henry e Renan Martins)
+            </div>
+        </footer>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
